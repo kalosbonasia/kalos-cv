@@ -1,97 +1,18 @@
-remote_theme: mmistakes/academicpages
-
-# Informazioni di base
 title: "Calogero Bonasia"
-name: "Calogero Bonasia"
-email: "calogero@example.org"
 description: "Project Manager | Architetture digitali | Governance del sapere"
-locale: "it-IT"
-url: "https://kalosbonasia.github.io"
-baseurl: "" # Lascia vuoto se il sito è su kalosbonasia.github.io
-
-repository: "kalosbonasia/kalos-cv"
-logo: "/images/profile.png"
-
-# Profilo autore
-author:
-  name: "Calogero Bonasia"
-  avatar: "/images/profile.png"
-  bio: "Project Manager con esperienza in PA, difesa e settori regolamentati. Esperto in architetture digitali adattive e governance del sapere."
-  email: "calogero@example.org"
-  location: "Italia"
-  github: "kalosbonasia"
-  linkedin: "calogerobonasia"
-
-# Plugins supportati da GitHub Pages
+remote_theme: pages-themes/modernist@v0.2.0
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-remote-theme
 
-# Collezioni personalizzate (facoltative, usale solo se ti servono)
-collections:
-  portfolio:
-    output: true
-    permalink: /portfolio/:path/
-  publications:
-    output: true
-    permalink: /publications/:path/
-  talks:
-    output: true
-    permalink: /talks/:path/
+# URL del tuo sito GitHub Pages
+url: "https://kalosbonasia.github.io"
+baseurl: ""  # lascia vuoto se non è una repo secondaria
 
-# Defaults layout per contenuti
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-
-# Altre impostazioni
-markdown: kramdown
-highlighter: rouge
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-excerpt_separator: "\n\n"
-timezone: Europe/Rome
-permalink: /:categories/:title/
-
-# SEO & Social
-og_image: "/images/profile.png"
-og_description: "Sito personale di Calogero Bonasia – Project Manager"
-social:
-  type: Person
+# Dati autore (puoi personalizzarli)
+author:
   name: "Calogero Bonasia"
-  links:
-    - https://www.linkedin.com/in/calogerobonasia
-    - https://github.com/kalosbonasia
+  email: "calogero@example.org"
+
+# Impostazioni Jekyll standard
+markdown: kramdown
+theme: null
