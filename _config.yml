@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/academicpages"
+remote_theme: pages-themes/modernist
 
 # Basic Site Settings
 locale                   : "it-IT"
