@@ -1,200 +1,53 @@
 remote_theme: pages-themes/modernist
 
-# Basic Site Settings
-locale                   : "it-IT"
-title                    : "Calogero Bonasia"
-title_separator          : "-"
-name                     : &name "Calogero Bonasia"
-description              : &description "Project Manager | Architetture digitali | Governance del sapere"
-url                      : "https://kalosbonasia.github.io"
-baseurl                  : "" # se usi un repository dedicato, es. "/kalos-cv"
-repository               : "kalosbonasia/kalos-cv"
+# Informazioni di base
+locale: "it-IT"
+title: "Calogero Bonasia"
+description: "Project Manager | Architetture digitali | Governance del sapere"
+url: "https://kalosbonasia.github.io"
+baseurl: ""
+repository: "kalosbonasia/kalos-cv"
 
-# Site Author
+# Autore
 author:
-  avatar           : "profile.png"
-  name             : "Calogero Bonasia"
-  bio              : "Project Manager con esperienza in PA, difesa e settori regolamentati. Esperto in architetture digitali adattive e governance del sapere."
-  location         : "Italia"
-  email            : "calogero@example.org"
-  linkedin         : "calogerobonasia"
-  github           : "kalosbonasia"
+  name: "Calogero Bonasia"
+  email: "calogero@example.org"
+  bio: "Project Manager con esperienza in PA, difesa e settori regolamentati. Esperto in architetture digitali adattive e governance del sapere."
+  location: "Italia"
+  avatar: "/images/profile.png"
+  github: kalosbonasia
+  linkedin: calogerobonasia
 
-# Publication Categories
-publication_category:
-  books:
-    title: 'Libri'
-  manuscripts:
-    title: 'Articoli'
-  conferences:
-    title: 'Conferenze'
-
-# Site Settings
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
-
-comments:
-  provider               : false
-
-atom_feed:
-  hide                   : false
-
-# SEO & Social
-og_image                 : "/images/profile.png"
-og_description           : "Sito personale di Calogero Bonasia – Project Manager"
+# SEO
 social:
-  type                   : Person
-  name                   : "Calogero Bonasia"
+  type: Person
+  name: "Calogero Bonasia"
   links:
-    - https://www.linkedin.com/in/calogerobonasia
     - https://github.com/kalosbonasia
+    - https://www.linkedin.com/in/calogerobonasia
+og_image: "/images/profile.png"
+og_description: "Sito personale di Calogero Bonasia – Project Manager"
 
-# Analytics (disattivato per ora)
-analytics:
-  provider               : "false"
-
-# Reading Files
+# Impostazioni di lettura
 include:
-  - .htaccess
   - _pages
   - files
-
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
   - Gemfile
-  - README
+  - Gemfile.lock
   - node_modules
-  - tmp
   - vendor
 
-keep_files:
-  - .git
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
+# Conversione Markdown
 markdown: kramdown
 highlighter: rouge
-excerpt_separator: "\n\n"
-incremental: false
-
 kramdown:
   input: GFM
-  hard_wrap: false
-  auto_ids: true
   toc_levels: 1..6
+  auto_ids: true
 
-# Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Europe/Rome
-
-# Plugins
+# Plugin supportati da GitHub Pages
 plugins:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jemoji
-
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
