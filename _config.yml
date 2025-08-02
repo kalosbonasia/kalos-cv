@@ -1,18 +1,15 @@
 title: "Calogero Bonasia"
 description: "Project Manager | Architetture digitali | Governance del sapere"
-remote_theme: pages-themes/modernist@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
 
-# URL del tuo sito GitHub Pages
 url: "https://kalosbonasia.github.io"
-baseurl: ""  # lascia vuoto se non è una repo secondaria
+baseurl: ""  # lascialo vuoto se usi kalosbonasia.github.io direttamente
 
-# Dati autore (puoi personalizzarli)
 author:
   name: "Calogero Bonasia"
   email: "calogero@example.org"
 
-# Impostazioni Jekyll standard
 markdown: kramdown
 theme: null
