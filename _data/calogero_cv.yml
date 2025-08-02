@@ -1,0 +1,28 @@
+
+name: Calogero
+title: Project Manager
+email: e@mai.com
+website: www.stultiferanavis.it
+
+summary: >
+  Project Manager con lunga esperienza nella gestione di progetti complessi in ambito pubblico e regolamentato. Competente in architetture digitali, trasformazione organizzativa e governance del sapere.
+
+experience:
+  - role: Senior Project Manager
+    organization: [Inserire Azienda]
+    location: [Inserire Località]
+    period: [Inserire Anni, es. 2018–oggi]
+    description: >
+      Coordinamento di iniziative strategiche, gestione stakeholder, integrazione tra processi e infrastrutture tecnologiche. Supervisione di team interdisciplinari.
+
+education:
+  - degree: Laurea in [Inserire Disciplina]
+    institution: [Inserire Università]
+    year: [Inserire Anno]
+
+skills:
+  - Gestione progetti complessi
+  - Architetture digitali adattive
+  - Compliance normativa
+  - Governance della conoscenza
+  - Pensiero sistemico
