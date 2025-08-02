@@ -1,9 +1,18 @@
 ---
 layout: home
+title: "Benvenuto"
+permalink: /
 author_profile: true
-title: "Calogero Bonasia"
 ---
 
-Benvenuto nel mio sito personale. In queste pagine trovi il mio profilo professionale, i progetti più rilevanti, e il curriculum aggiornato.
+Benvenuti nel sito personale di **Calogero Bonasia**, project manager con trent’anni di esperienza in pubblica amministrazione, difesa e settori regolamentati. 
 
-Per approfondimenti o collaborazioni: [www.stultiferanavis.it](http://www.stultiferanavis.it)
+Mi occupo di architetture digitali adattive, governance del sapere e gestione di progetti complessi. 
+
+Il mio lavoro si colloca all’intersezione tra strategia, processi e tecnologie, con una particolare attenzione alla sostenibilità e alla conformità normativa.
+
+---
+
+📄 [Consulta il mio curriculum completo in formato web](https://kalosbonasia.github.io/files/cv.html)
+
+📬 Per contatti e approfondimenti, visita [www.stultiferanavis.it](https://www.stultiferanavis.it)
